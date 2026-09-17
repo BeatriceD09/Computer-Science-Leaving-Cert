@@ -11,3 +11,11 @@ while myPassword != password:
     break
 if myPassword == password:
     print("Welcome!!!")
+
+#2
+password = 12345
+myPassword = int(input("Enter your password "))
+while myPassword != password:
+    print("Sorry password is incorrect!")
+    myPassword = int(input("Enter your password "))
+print("Welcome")
