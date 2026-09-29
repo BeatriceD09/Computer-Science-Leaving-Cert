@@ -60,3 +60,10 @@ print(books)'''
 '''workout = ["run", "stretch"]
 workout.insert(0, "warm up")
 print(workout)'''
+
+#11
+'''colours = ["red", "blue", "green", "blue"]
+colours.remove("blue")
+print(colours)
+colours.remove("blue")
+print(colours)'''
