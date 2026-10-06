@@ -15,10 +15,11 @@ total_hours = sum(hours)
 print("Total hours spent at home:",total_hours,"hours")
 
 total_liters = total_hours * 0.5
-print("Total liters of milk:",total_liters,"L")
+print("Total liters of milk:", total_liters, "L")
 
-cost_per_L = 1 * 1.35
-print("Total cost of milk: €",total_cost)'''
+cost_per_L = 1.35
+total_cost = total_liters * 1.35
+print("Total cost of milk: €",total_cost)
 
 #3
 rainfall_ = []
@@ -27,4 +28,4 @@ for i in range(7):
     rainfall_.append(rainfall)
     
 total_rainfall = sum(rainfall_)
-print("Total amount of rainfall during the week in cm: ",total_rainfall,"cm")
+print("Total amount of rainfall during the week in cm: ", total_rainfall, "cm")
