@@ -18,7 +18,7 @@ total_liters = total_hours * 0.5
 print("Total liters of milk:",total_liters,"L")
 
 cost_per_L = 1 * 1.35
-print("Total cost of milk:",total_cost,"euros")
+print("Total cost of milk: €",total_cost)'''
 
 #3
 rainfall_ = []
