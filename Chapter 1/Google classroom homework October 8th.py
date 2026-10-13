@@ -12,9 +12,9 @@ for i in range(3):
 
 # check if user numbers are on the lit of random numbers
 if any(number in numbers for number in user_numbers):
-    print("Your number is on the list")
+    print("You Won!")
 
 else:
-    print("You have not found a number on the list")
+    print("Try again!")
 
 # Challenge 2: The Sequential Match
